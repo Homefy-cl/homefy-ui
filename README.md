@@ -16,7 +16,7 @@ Views presented on the web browser.
 # Ways to contribute:
 Your pull request will require.
 - Explicit comment of what you did.
-- Documentation.
+- Comments/Documentation that follows K.I.S.S (Keep It Stupid Simple).
 - Relative imports.
 - Follow the above Folder Structure.
 
