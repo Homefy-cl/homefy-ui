@@ -1,43 +1,22 @@
-# FelipeFa's Homefy Build
+# Homefy Build
 
 ## Folder Structure:
-
 ### assets:
-Resources that are non component or configuration related.
-Folders:
-```
-.
-└── /src
-    └── /assets
-        ├── /images
-        ├── /gifs
-        ├── /json
-        └── /(...)
-
-```
+Resources that are non component or configuration related such as: images, gifs, json.
 
 ### components
-Components that will be rendered in the 'views' folder.
-Folders:
-```
-.
-└── /src
-    └── /components
-        ├── /forms
-        ├── /layout
-        ├── /tables
-        └── /(...)
-
-```
+Components that will be rendered in the 'views' folder such as: forms: tables, layouts, navbars.
 
 ### utils
-Global utility functions like constants, validations, conversions, generators, routes.
-```
-.
-└── /src
-    └── /utils
-        ├── /routing
-        ├── /generators
-        └── /(...)
+Global utility objects such as: constants, validations, conversions, generators, routes.
 
-```
+### views (or also pages)
+Views presented on the web browser.
+
+# Ways to contribute:
+Your pull request will require.
+- Explicit comment of what you did.
+- Documentation.
+- Relative imports.
+- Follow the above Folder Structure.
+
