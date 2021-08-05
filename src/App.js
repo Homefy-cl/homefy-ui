@@ -3,7 +3,7 @@ import React from "react";
 const App = () => {
     return (
       <div className="app">
-        <h1>App Component</h1>
+        <p>TEST Text for REACT server</p>
       </div>
     );
 };
