@@ -4,14 +4,16 @@
 ### assets:
 Resources that are non component or configuration related such as: images, gifs, json.
 
-### components
+### components:
 Components that will be rendered in the 'views' folder such as: forms: tables, layouts, navbars.
 
-### utils
+### utils:
 Global utility objects such as: constants, validations, conversions, generators, routes.
 
-### views (or also pages)
+### views:
 Views presented on the web browser.
+
+---
 
 # Ways to contribute:
 Your pull request will require.
