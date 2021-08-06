@@ -1,0 +1,24 @@
+.footer {
+  background-color: #282828;
+  display: flex;
+  padding: 20px;
+  line-height: 35px;
+}
+
+.navItems{
+  width: 100%;
+  justify-content: space-evenly;
+  display: flex;
+}
+
+.navItems h2{
+  font-size: 16px;
+  color: #a2a2a2;
+}
+.navItems a{
+  color: white;
+  font-size: 20px;
+}
+.navItems a:hover{
+  color: orange;
+}

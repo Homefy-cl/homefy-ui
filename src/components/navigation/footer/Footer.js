@@ -1,35 +1,33 @@
 import React from "react";
-import "./Footer.css";
 import { Link } from "react-router-dom";
+import style from "./Footer.module.css";
 
 //Logo
-import Logotipo from "assets/imgs/logo/128x128.png";
+import Logotipo from "assets/imgs/logo/64x64.png";
+
+//Card
+import NavCard from "components/cards/navigation/Navigation";
 
 const Footer = () => {
   return (
-    <div className="footer">
-      <div className="footer__img">
+    <div className={style.footer}>
+      <div className={style.imgContainer}>
         <img src={Logotipo} alt="Logotipo" />
       </div>
 
-      <div className="footer__nav">
-        <h2>Navegación</h2>
-        <ul>
+      <div className={style.navItems}>
+        <NavCard title="Company">
           <li>
-            <Link to="/AboutUs"/>
-            <p>About Us</p>
+            <Link to="/about">About Us</Link>
           </li>
+        </NavCard>
+
+        <NavCard title="Services">
           <li>
-            <Link to="/Planes"/>
-            <p>Planes</p>
+            <Link to="/premium">Premium</Link>
           </li>
-          <li>
-            <Link to="/Contacto"/>
-            <p>Contactoa</p>
-          </li>
-        </ul>
+        </NavCard>
       </div>
-      <p>® 2021 Homefy All rights reserved</p>
     </div>
   );
 };

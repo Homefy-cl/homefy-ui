@@ -1,29 +1,42 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
-import "./Header.css";
+import style from "./Header.module.css";
 
 //Logo img
 import LogoImg from "assets/imgs/logo/128x128.png";
 
+//Components
+import SearchBar from "components/forms/searchBar/SearchBar";
+
 const Header = () => {
   return (
-    <div className="header">
-      <div className="logo">
+    <div className={style.header}>
+      <div className={style.logo}>
         <Link to="/">
           <img src={LogoImg} alt="Logo" border="0" />
         </Link>
       </div>
 
-      <nav>
-        <Link className="link" to="/about">
+      <SearchBar />
+
+      <div className={style.leftNav}>
+        <Link className={style.item} to="/about">
           About Us
         </Link>
-
-        <Link className="link" to="/premium">
+        <Link className={style.item} to="/premium">
           Premium
         </Link>
-      </nav>
+      </div>
+
+      <div className={style.rightNav}>
+        <Link className={style.item} to="/register">
+          Register
+        </Link>
+        <span>|</span>
+        <Link className={style.item} to="/login">
+          Login
+        </Link>
+      </div>
     </div>
   );
 };
