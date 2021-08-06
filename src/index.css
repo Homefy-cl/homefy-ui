@@ -1,12 +1,14 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
 }
 
 code {
-	color: #00ff00;
-	background-color: #000;
-
+	color: red;
+	background-color: #eeeeee;
 	padding: 0px 5px;
-	font-size: 110%;
+	font-size: 120%;
+  font-family: monospace;
 }
