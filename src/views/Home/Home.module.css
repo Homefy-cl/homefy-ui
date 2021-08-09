@@ -1,0 +1,11 @@
+.banner {
+  width: 100%;
+}
+
+.cards {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+
+  margin: 50px 0px;
+}

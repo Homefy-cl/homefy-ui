@@ -6,7 +6,7 @@ import style from "./Footer.module.css";
 import Logotipo from "assets/imgs/logo/64x64.png";
 
 //Card
-import NavCard from "components/cards/navigation/Navigation";
+import NavColum from "components/columns/navColumn/NavColumn";
 
 const Footer = () => {
   return (
@@ -16,17 +16,13 @@ const Footer = () => {
       </div>
 
       <div className={style.navItems}>
-        <NavCard title="Company">
-          <li>
-            <Link to="/about">About Us</Link>
-          </li>
-        </NavCard>
+        <NavColum title="Company">
+          <Link to="/about">About Us</Link>
+        </NavColum>
 
-        <NavCard title="Services">
-          <li>
-            <Link to="/premium">Premium</Link>
-          </li>
-        </NavCard>
+        <NavColum title="Services" text>
+          <Link to="/premium">Premium</Link>
+        </NavColum>
       </div>
     </div>
   );

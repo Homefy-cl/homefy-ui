@@ -1,0 +1,14 @@
+.banner {
+  width: 100%;
+  height: 50vh;
+  position: relative;
+}
+
+.banner img {
+  object-fit: cover;
+  object-position: center;
+
+  /*Sizes for containing the img*/
+  width: 100%;
+  height: 100%;
+}
