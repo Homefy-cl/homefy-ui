@@ -1,11 +1,19 @@
 .banner {
-  width: 100%;
+  background: url("assets/banner/background.png");
+  height: 80vh;
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .cards {
-  width: 100%;
   display: flex;
+  padding: 30px;
   justify-content: space-around;
-
-  margin: 50px 0px;
 }
+
+.plan {
+  margin: 0 auto;
+  background-color: green;
+}
+

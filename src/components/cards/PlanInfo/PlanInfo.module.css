@@ -1,0 +1,29 @@
+.plan {
+  display: flex;
+}
+
+.plan img {
+  width: 450px;
+  height: 340px;
+}
+
+.info {
+  text-align: center;
+  padding: 25px;
+  width: 250px;
+}
+
+.info p {
+  font-size: 16px;
+  font-weight: 400;
+  margin: 8px 0px;
+}
+
+.icon {
+  color: #fff;
+  font-size: 2.5em !important;
+  padding: 10px;
+  border-radius: 100%;
+  margin-top: 10px;
+}
+

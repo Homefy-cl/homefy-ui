@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import style from "./Footer.module.css";
 
 //Logo
-import Logotipo from "assets/imgs/logo/64x64.png";
+import Logotipo from "assets/logo/64x64.png";
 
 //Card
 import NavColum from "components/columns/navColumn/NavColumn";
