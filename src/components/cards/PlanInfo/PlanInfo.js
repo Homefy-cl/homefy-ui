@@ -8,19 +8,19 @@ const PlanInfo = ({ src, icon, title, description }) => {
   const history = useHistory();
   return (
     <div className={style.plan}>
-      <img src={src} alt="plan-img" />
-      {icon && <icon className="plan__icon" />}
+      <img src={src} alt="planImg" />
+      {icon && <icon className={style.icon} />}
 
       <div className={style.info}>
         <h2>{title}</h2>
         <p>{description}</p>
         <Button
-          onClick={() => history.push("/planes")}
+          onClick={() => history.push("/premium")}
           className={style.infoButton}
           variant="contained"
           color="primary"
         >
-          Ver Planes
+          Go Premium
         </Button>
       </div>
     </div>

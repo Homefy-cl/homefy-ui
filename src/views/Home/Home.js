@@ -3,6 +3,7 @@ import style from "./Home.module.css";
 
 import Card from "components/cards/Card/Card";
 import PlanInfo from "components/cards/PlanInfo/PlanInfo";
+import Banner from "components/banner/Banner";
 
 //Img
 import imgNotFound from "assets/imgNotFound.png";
@@ -10,7 +11,9 @@ import imgNotFound from "assets/imgNotFound.png";
 const Home = () => {
   return (
     <div className={style.home}>
-      <div className={style.banner}></div>
+      <div className={style.banner}>
+        <Banner />
+      </div>
 
       <div className={style.cards}>
         <Card

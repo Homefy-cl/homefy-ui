@@ -1,19 +1,16 @@
 .banner {
-  background: url("assets/banner/background.png");
-  height: 80vh;
-  position: relative;
-  display: flex;
-  justify-content: flex-end;
+  /*background: url("assets/banner/background.png");*/
+  height: calc(100vh - 64px);
 }
 
 .cards {
   display: flex;
-  padding: 30px;
+  padding: 50px;
   justify-content: space-around;
 }
 
 .plan {
-  margin: 0 auto;
-  background-color: green;
+  padding: 50px;
+  display: flex;
+  justify-content: space-around;
 }
-

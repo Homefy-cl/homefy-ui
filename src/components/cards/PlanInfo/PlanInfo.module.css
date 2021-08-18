@@ -11,6 +11,10 @@
   text-align: center;
   padding: 25px;
   width: 250px;
+  background-color: white;
+  margin-left: 20px;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .info p {
@@ -26,4 +30,3 @@
   border-radius: 100%;
   margin-top: 10px;
 }
-
