@@ -4,13 +4,14 @@ import style from "./PlanInfo.module.css";
 import { Button } from "@material-ui/core";
 import { useHistory } from "react-router-dom";
 
+import imgNotFound from "assets/imgNotFound.png";
+
 const PlanInfo = ({ src, icon, title, description }) => {
   const history = useHistory();
   return (
     <div className={style.plan}>
       <img src={src} alt="planImg" />
-      {icon && <icon className={style.icon} />}
-
+      <div className={style.icon}>{icon}</div>
       <div className={style.info}>
         <h2>{title}</h2>
         <p>{description}</p>
@@ -25,6 +26,12 @@ const PlanInfo = ({ src, icon, title, description }) => {
       </div>
     </div>
   );
+};
+
+PlanInfo.defaultProps = {
+  src: imgNotFound,
+  title: "No Title",
+  description: "No description",
 };
 
 export default PlanInfo;

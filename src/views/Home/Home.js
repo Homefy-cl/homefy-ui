@@ -5,9 +5,6 @@ import Card from "components/cards/Card/Card";
 import PlanInfo from "components/cards/PlanInfo/PlanInfo";
 import Banner from "components/banner/Banner";
 
-//Img
-import imgNotFound from "assets/imgNotFound.png";
-
 const Home = () => {
   return (
     <div className={style.home}>
@@ -31,7 +28,6 @@ const Home = () => {
       </div>
       <div className={style.plan}>
         <PlanInfo
-          src={imgNotFound}
           title="Planes Administrativos"
           description="Escoge los diferentes planes que ofrecemos para que puedas admistrar tu comunidad de la mejor manera."
         />
