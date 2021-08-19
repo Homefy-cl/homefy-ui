@@ -1,11 +1,12 @@
 .header {
   background-color: #282828;
-  padding: 10px 2vw;
+  padding: 0px 2vw;
   display: flex;
   align-items: center;
 
   position: sticky;
   z-index: 999;
+  height: 64px;
 }
 
 /* logo */
