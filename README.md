@@ -1,6 +1,7 @@
 # Homefy-ui (Created on React.JS)
+![Homefy.cl Logo](https://raw.githubusercontent.com/Homefy-cl/docs/main/media/logo/isotipo/original.png)
 
-# How are Components created:
+## How are Components created:
 
 Components should be created to interact only with the internal parts of it, never with the outside items.
 A component should not be styled for a specific enviroment outside, instead this should adapt to it.
