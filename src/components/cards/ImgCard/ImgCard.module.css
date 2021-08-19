@@ -1,0 +1,22 @@
+.card {
+  max-width: 300px;
+  overflow: hidden;
+
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background: white;
+}
+
+.card img {
+  width: 100%;
+  min-height: 200px;
+
+  display: flex;
+  flex-wrap: wrap;
+  object-fit: fill;
+}
+
+.text {
+  padding: 25px;
+  text-align: center;
+}

@@ -1,26 +1,26 @@
 import React from "react";
-import style from "./Card.module.css";
+import style from "./ImgCard.module.css";
 
 import imgNotFound from "assets/imgNotFound.png";
 
-const Card = ({ src, title, description }) => {
+const ImgCard = ({ src, title, description }) => {
   return (
     <div className={style.card}>
       <img src={src} alt="cardImg" />
 
       <div className={style.text}>
-        <h1>{title}</h1>
+        <h2>{title}</h2>
         <p>{description}</p>
       </div>
     </div>
   );
 };
 
-Card.defaultProps = {
+ImgCard.defaultProps = {
   src: imgNotFound,
   title: "No Title",
   description: "No description"
 }
 
 
-export default Card;
+export default ImgCard;

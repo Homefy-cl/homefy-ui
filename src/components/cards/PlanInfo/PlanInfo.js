@@ -13,7 +13,7 @@ const PlanInfo = ({ src, Icon, title, description }) => {
 			<img src={src} alt="planImg" />
 			<div className={style.info}>
 				{Icon && <Icon className={style.icon} />}
-				<h1>{title}</h1>
+				<h2>{title}</h2>
 				<p>{description}</p>
 				<Button
 					onClick={() => history.push("/premium")}
