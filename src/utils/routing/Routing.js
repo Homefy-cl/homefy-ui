@@ -13,7 +13,7 @@ import Premium from "views/Premium/Premium";
 const Routing = () => {
   return (
     <Router>
-        <Header />
+    <Header />
         <Switch>
           <Route exact path="/" component={Home} />
           <Route exact path="/about" component={AboutUs} />
