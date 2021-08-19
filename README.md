@@ -1,4 +1,14 @@
-# Felipe Farias Homefy build
+# Homefy-ui (Created on React.JS)
+
+# How are Components created:
+
+Components should be created to interact only with the internal parts of it, never with the outside items.
+A component should not be styled for a specific enviroment outside, instead this should adapt to it.
+never with the outside items, for example:
+
+A Card item is instantiated inside a View, to center the Card item the style
+should be in the View.module.css file.
+
 
 ## Folder Structure:
 
@@ -20,15 +30,6 @@ Global utility objects such as: constants, validations, conversions, generators.
 ### Views:
 
 Views presented on the web browser.
-
-# How are Components created:
-
-Components should be created to interact only with the internal parts of it, never with the outside items.
-A component should not be styled for a specific enviroment outside, instead this should adapt to it.
-never with the outside items, for example:
-
-A Card item is instantiated inside a View, to center the Card item the style
-should be in the View.module.css file.
 
 ---
 
