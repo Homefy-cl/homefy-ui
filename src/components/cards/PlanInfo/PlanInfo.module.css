@@ -2,28 +2,33 @@
 	display: flex;
 }
 
-.plan img {
-	min-width: 450px;
+.plan > img {
+	width: 450px;
+	height: 350px;
+	border-top-left-radius: 25px;
+	border-bottom-left-radius: 25px;
+	box-shadow: 0 6px 18px -9px rgba(0, 0, 0, 0.75);
+
+	/*max-width: 550px;*/
+
+	/*border-radius: 8px;*/
+	/*box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;*/
 }
 
 .info {
 	text-align: center;
 	padding: 25px;
-	max-width: 250px;
+	width: 100%;
+	max-width: 300px;
+
 	background-color: white;
 	margin-left: 20px;
 	border-radius: 8px;
 	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-
-	position: relative;
 }
 
 .info p {
-	margin-top: 10px;
-}
-
-.infoButton {
-	margin-top: 30px;
+	margin: 25px 0px;
 }
 
 .icon {

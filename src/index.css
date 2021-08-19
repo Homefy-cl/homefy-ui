@@ -12,3 +12,11 @@ code {
   font-size: 120%;
   font-family: monospace;
 }
+
+h1 {
+  font-size: 20px;
+}
+
+p { 
+  font-size: 16px;
+}
