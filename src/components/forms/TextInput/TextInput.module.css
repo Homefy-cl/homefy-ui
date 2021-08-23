@@ -1,0 +1,26 @@
+.input {
+  padding: 10px;
+}
+
+.wrapper {
+  display: flex;
+}
+
+.wrapper {
+  color: black;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.icon {
+  height: 100%;
+}
+
+.input input {
+  height: 35px;
+  padding-left: 10px;
+
+  width: 100%;
+  border: 1px solid rgb(102, 102, 102);
+  border-radius: 0 0 10px 0;
+}

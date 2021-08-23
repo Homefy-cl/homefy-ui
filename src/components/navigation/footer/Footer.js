@@ -6,7 +6,7 @@ import style from "./Footer.module.css";
 import Logotipo from "assets/logo/64x64.png";
 
 //Card
-import NavColum from "components/columns/navColumn/NavColumn";
+import NavColum from "components/columns/NavColumn/NavColumn";
 
 const Footer = () => {
   return (

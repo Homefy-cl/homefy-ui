@@ -6,7 +6,7 @@ import style from "./Header.module.css";
 import LogoImg from "assets/logo/128x128.png";
 
 //Components
-import SearchBar from "components/forms/searchBar/SearchBar";
+import SearchBar from "components/forms/SearchBar/SearchBar";
 
 const Header = () => {
   return (

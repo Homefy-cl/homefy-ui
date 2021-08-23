@@ -1,10 +1,11 @@
 .card {
-  max-width: 300px;
+  max-width: 400px;
   overflow: hidden;
-
   border-radius: 10px;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  background: white;
+
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 5px 8px;
+  background-color: white;
+  text-align: center;
 }
 
 .card img {
@@ -13,10 +14,15 @@
 
   display: flex;
   flex-wrap: wrap;
-  object-fit: fill;
+  object-fit: contain;
 }
 
 .text {
-  padding: 25px;
-  text-align: center;
+  padding: 0px 25px;
+}
+
+.children {
+  padding: 10px 0px;
+  width: 70%;
+  margin: 0 auto;
 }

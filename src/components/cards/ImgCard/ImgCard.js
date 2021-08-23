@@ -3,7 +3,7 @@ import style from "./ImgCard.module.css";
 
 import imgNotFound from "assets/imgNotFound.png";
 
-const ImgCard = ({ src, title, description }) => {
+const ImgCard = ({ src, title, description, children }) => {
   return (
     <div className={style.card}>
       <img src={src} alt="cardImg" />
@@ -12,6 +12,7 @@ const ImgCard = ({ src, title, description }) => {
         <h2>{title}</h2>
         <p>{description}</p>
       </div>
+      <div className={style.children}>{children}</div>
     </div>
   );
 };
@@ -19,8 +20,6 @@ const ImgCard = ({ src, title, description }) => {
 ImgCard.defaultProps = {
   src: imgNotFound,
   title: "No Title",
-  description: "No description"
-}
-
+};
 
 export default ImgCard;

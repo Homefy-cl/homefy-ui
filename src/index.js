@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "index.css";
 
-import Routing from "utils/routing/Routing";
+import Routing from "utils/Routing/Routing";
 
 const App = () => {
   return (

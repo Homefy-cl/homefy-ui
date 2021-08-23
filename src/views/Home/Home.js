@@ -6,7 +6,7 @@ import PlanInfo from "components/cards/PlanInfo/PlanInfo";
 import Banner from "components/banner/Banner";
 
 //Imgs
-import bannerImg from "assets/banner/background.png";
+import bannerImg from "assets/backgrounds/background1.png";
 import cardImg1 from "assets/home/post.png";
 import cardImg2 from "assets/home/admin.png";
 import cardImg3 from "assets/home/market.png";

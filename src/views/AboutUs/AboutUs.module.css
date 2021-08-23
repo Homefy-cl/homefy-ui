@@ -1,5 +1,9 @@
 .about{
-  padding: 50px 0px;
+  padding: 25px 0px;
+}
+
+.about h1 {
+  padding: 25px;
 }
 
 .aboutWrapper {
