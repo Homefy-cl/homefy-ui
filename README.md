@@ -1,4 +1,4 @@
-# Homefy-ui (Created on React.JS)
+# Homefy-ui
 ![Homefy.cl Logo](https://raw.githubusercontent.com/Homefy-cl/docs/main/media/logo/isotipo/original.png)
 
 ## How are Components created:
